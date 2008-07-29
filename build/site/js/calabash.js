@@ -21,7 +21,8 @@ GrandCalabash = {
             selector : "h1",
             css : {
                 ".sIFR-root" : {
-                    "color" : "#999b9e"
+                    "color" : "#999b9e",
+                    "font-size": "42px"
                 }
             }
         });
