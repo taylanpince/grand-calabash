@@ -1,6 +1,12 @@
-<?php include("../includes/header.inc.php"); ?>
+<?php
 
-<h1>Photo Gallery</h1>
+$page_title = "Photo Gallery";
+
+include("../includes/header.inc.php");
+
+?>
+
+<h1><?php echo $page_title; ?></h1>
 
 <p></p>
 

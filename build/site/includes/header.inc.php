@@ -6,7 +6,7 @@
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	
-	<title>Grand Calabash</title>
+	<title>Grand Calabash - <?php echo $page_title; ?></title>
 	
 	<style type="text/css" media="all">
         @import "/media/css/reset.css";

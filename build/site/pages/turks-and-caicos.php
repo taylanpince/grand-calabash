@@ -1,6 +1,12 @@
-<?php include("../includes/header.inc.php"); ?>
+<?php
 
-<h1>About Turks &amp; Caicos</h1>
+$page_title = "About Turks &amp; Caicos";
+
+include("../includes/header.inc.php");
+
+?>
+
+<h1><?php echo $page_title; ?></h1>
 
 <p></p>
 

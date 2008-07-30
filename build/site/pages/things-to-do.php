@@ -1,6 +1,12 @@
-<?php include("../includes/header.inc.php"); ?>
+<?php
 
-<h1>Things To Do</h1>
+$page_title = "Things To Do";
+
+include("../includes/header.inc.php");
+
+?>
+
+<h1><?php echo $page_title; ?></h1>
 
 <p></p>
 

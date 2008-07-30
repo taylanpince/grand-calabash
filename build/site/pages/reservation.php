@@ -1,6 +1,12 @@
-<?php include("../includes/header.inc.php"); ?>
+<?php
 
-<h1>Reservation &amp; Rates</h1>
+$page_title = "Reservation &amp; Rates";
+
+include("../includes/header.inc.php");
+
+?>
+
+<h1><?php echo $page_title; ?></h1>
 
 <p></p>
 

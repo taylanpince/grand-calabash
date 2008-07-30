@@ -12,7 +12,7 @@ GrandCalabash = {
     
     init_sifr : function() {
         var bickham_bold = {
-            src : "/fla/bickham-bold.swf"
+            src : "/media/fla/bickham-bold.swf"
         };
         
         sIFR.activate(bickham_bold);
