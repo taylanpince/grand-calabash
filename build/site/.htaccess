@@ -1,0 +1,28 @@
+RewriteEngine on
+
+RewriteRule ^$ pages/home.php
+RewriteRule ^/$ pages/home.php
+
+RewriteRule ^turks-and-caicos$ /turks-and-caicos/ [R]
+RewriteRule ^turks-and-caicos/$ pages/turks-and-caicos.php
+
+RewriteRule ^reservation$ /reservation/ [R]
+RewriteRule ^reservation/$ pages/reservation.php
+
+RewriteRule ^gallery$ /gallery/ [R]
+RewriteRule ^gallery/$ pages/gallery.php
+
+RewriteRule ^dining$ /dining/ [R]
+RewriteRule ^dining/$ pages/dining.php
+
+RewriteRule ^fact-sheet$ /fact-sheet/ [R]
+RewriteRule ^fact-sheet/$ pages/fact-sheet.php
+
+RewriteRule ^resort$ /resort/ [R]
+RewriteRule ^resort/$ pages/resort.php
+
+RewriteRule ^things-to-do$ /things-to-do/ [R]
+RewriteRule ^things-to-do/$ pages/things-to-do.php
+
+RewriteRule ^testimonials$ /testimonials/ [R]
+RewriteRule ^testimonials/$ pages/testimonials.php
