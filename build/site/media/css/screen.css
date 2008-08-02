@@ -19,12 +19,6 @@ body {
     padding: 0px 216px 0px 0px;
 }
 
-#Header {
-    margin: 45px 0px 55px 0px;
-    padding: 0px 0px 35px 0px;
-    border-bottom: 1px solid #b6e1e2;
-}
-
 #Columns {
     overflow: hidden;
     position: static;
@@ -61,7 +55,8 @@ h1 {
 }
 
 h2 {
-
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
 }
 
 h3 {
@@ -75,6 +70,7 @@ h3 {
 
 p {
     margin: 0px 0px 20px 0px;
+    line-height: 18px;
 }
 
 blockquote {
@@ -95,6 +91,10 @@ code {
 
 hr {
 
+}
+
+img.inline-image {
+    margin: 0px 0px 20px -10px;
 }
 
 /* @end */
@@ -139,6 +139,60 @@ ul li {
 /* @end */
 
 
+/* @group Tables */
+
+table {
+    margin: 0px 0px 20px 0px;
+}
+
+table tr {
+    
+}
+
+table td {
+    border-bottom: 1px solid #d5d5d7;
+    padding: 20px;
+    line-height: 20px;
+}
+
+table td.label {
+    font-weight: bold;
+    border-right: 1px solid #d5d5d7;
+    width: 80px;
+}
+
+/* @end */
+
+
+/* @group Header */
+
+#Header {
+    position: relative;
+    margin: 45px 0px 55px 0px;
+    padding: 0px 0px 5px 0px;
+    border-bottom: 1px solid #b6e1e2;
+}
+
+#Header #Logo {
+    margin: 0px 0px 20px 0px;
+}
+
+#Header p {
+    margin: 0px;
+    font-size: 11px;
+}
+
+#Header #ContactLink {
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+/* @end */
+
+
 /* @group Navigation */
 
 #Navigation li {
@@ -153,6 +207,25 @@ ul li {
 #Navigation li a.active,
 #Navigation li a:hover {
     color: #6ac9ca;
+}
+
+/* @end */
+
+
+/* @group Gallery */
+
+#Gallery {
+    overflow: hidden;
+    position: static;
+    width: 400px;
+    margin: 0px 0px 20px 0px;
+}
+
+#Gallery li {
+    float: left;
+    display: inline;
+    width: 190px;
+    margin: 0px 10px 10px 0px;
 }
 
 /* @end */

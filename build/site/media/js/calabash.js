@@ -28,8 +28,15 @@ GrandCalabash = {
         });
     },
     
+    init_lightbox : function() {
+        if ($("#Gallery").size() > 0) {
+            $("#Gallery a").lightBox();
+        }
+    },
+    
     init : function() {
         this.init_sifr();
+        this.init_lightbox();
     }
     
 };
