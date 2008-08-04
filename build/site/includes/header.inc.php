@@ -28,6 +28,7 @@
 	
 	<script type="text/javascript" src="/media/js/jquery.js"></script>
 	<script type="text/javascript" src="/media/js/jquery.lightbox.js"></script>
+	<script type="text/javascript" src="/media/js/swfobject.js"></script>
 	<script type="text/javascript" src="/media/js/sifr.js"></script>
 	<script type="text/javascript" src="/media/js/calabash.js"></script>
 	
@@ -54,6 +55,7 @@
                     <li><a href="/things-to-do/"<?php if ($_SERVER["REQUEST_URI"] == "/things-to-do/") echo ' class="active"'; ?>>Things To Do</a></li>
                     <li><a href="/testimonials/"<?php if ($_SERVER["REQUEST_URI"] == "/testimonials/") echo ' class="active"'; ?>>Testimonials</a></li>
                     <li><a href="/turks-and-caicos/"<?php if ($_SERVER["REQUEST_URI"] == "/turks-and-caicos/") echo ' class="active"'; ?>>About Turks &amp; Caicos</a></li>
+                    <li><a href="/getting-there/"<?php if ($_SERVER["REQUEST_URI"] == "/getting-there/") echo ' class="active"'; ?>>Getting There</a></li>
                 </ul>
             </div>
             

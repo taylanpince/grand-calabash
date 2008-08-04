@@ -26,3 +26,6 @@ RewriteRule ^things-to-do/$ pages/things-to-do.php
 
 RewriteRule ^testimonials$ /testimonials/ [R]
 RewriteRule ^testimonials/$ pages/testimonials.php
+
+RewriteRule ^getting-there$ /getting-there/ [R]
+RewriteRule ^getting-there/$ pages/getting-there.php
