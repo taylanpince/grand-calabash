@@ -35,8 +35,10 @@ GrandCalabash = {
     },
     
     init_slideshow : function() {
-        if ($("#SlideShow").size() > 0) {
+        if ($("#SlideShow.home").size() > 0) {
             swfobject.embedSWF("/media/fla/slideshow.swf", "SlideShow", "400", "305", "7.0.0");
+        } else if ($("#SlideShow.facts").size() > 0) {
+            swfobject.embedSWF("/media/fla/facts_slideshow.swf", "SlideShow", "400", "305", "7.0.0");
         }
     },
     
